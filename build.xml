@@ -35,8 +35,5 @@
         </jar>
     </target>
 
-    <!-- Run the application -->
-    <target name="run" depends="jar">
-        <java jar="${dist.dir}/onlinebookstore.jar" fork="true"/>
-    </target>
+
 </project>
